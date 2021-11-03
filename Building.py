@@ -1,4 +1,5 @@
 import json
+#need more work
 class Building:
 
     #have to pass this aka self so i could assight my "fields"
