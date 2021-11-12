@@ -19,4 +19,6 @@ class Calls_List:
             o=CallForElevator(name=row[0], time=row[1], src=row[2], dst=row[3], x=0, allc=0)
             rows.append(o)
      self.rows_list =rows
- 
+
+
+
