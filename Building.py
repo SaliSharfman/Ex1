@@ -25,4 +25,14 @@ class Building(object):
             self.elevators = elevator_list
 
         return self
+    def getBuildingName(self)->str:
+        pass
+    def minFloor(self)->int:
+        pass
+    def maxFloor(self)->int:
+        pass
+    def numberOfElevator(self)->int:
+        pass
+    def getElevator(self)->Elevators:
+        pass
 
