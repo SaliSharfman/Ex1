@@ -15,7 +15,7 @@ class Elevators:
       self.openTime = openTime
       self.stopTime = stopTime
 
-   def _repr_(self) -> str:
+   def __repr__(self) -> str:
       return f"repr _id:{self.id} speed:{self.speed} minFloor:{self.minFloor} " \
              f"maxFloor:{self.maxFloor} closeTime:{self.closeTime} " \
              f"openTime:{self.openTime} startTime:{self.stopTime} stopTime:{self.stopTime}"

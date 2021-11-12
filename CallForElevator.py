@@ -1,5 +1,4 @@
 
-
 class CallForElevator:
 
     def __init__(self, name='', time=0, src=0, dst=0, x=0, allc=0) -> None:
