@@ -1,4 +1,5 @@
 
+
 from Building import Building
 from Elevators import Elevators
 import json
@@ -13,7 +14,7 @@ def main():
 
     call = CallForElevator()
     call.load_csv("Calls_a.csv")
-    print(call.row)
+    print(call)
 
 
 
