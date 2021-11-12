@@ -16,7 +16,7 @@ class CallForElevator:
     def load_csv(self, csv_file):
      calls = []
      rows = []
-     with open(csv_file) as file:
+     with open(csv_file,'r') as file:
 
         csvreader =csv.reader(file)
         for row in csvreader:
