@@ -10,7 +10,7 @@ class CallForElevator:
         self.allc=allc
 
 
-    def _str_(self) -> str:
+    def __repr__(self)->str:
         return f":{self.name}\n time:{self.time} src:{self.src} "
 
     def load_csv(self, csv_file):
