@@ -5,11 +5,9 @@ from Elevator import Elevator
 
 class Building(object):
 
-    def __init__(self, file):
-        self.buildingname = file
-
-        self.load_json(file)
-
+    def __init__(self, numelevs:int):
+       self.elevators=[]
+       self.elevSize=numelevs
 
 
 
@@ -37,20 +35,19 @@ class Building(object):
             f.close()
 
 
-    def getBuildingName(self)->str:
-        return self.buildingname
-    def minFloor(self)->int:
-        pass
-    def maxFloor(self)->int:
-        pass
-    def numberOfElevator(self)->int:
-
-        pass
     #all elevators
-    def ElevSize(self):
-        return len(self.elevators)
+    def getElevSize(self)->int:
+        return self.elevSize
+    def getElevators(self)->list:
+        return self.elevators
 
-    def getElevator(self,place)->Elevator:
-        return self.elevators[place]
+    def __add__(self, other: Elevator):
+        if isinstance(other, Elevator):
+            return self.elevators.append(other)
 
+    def __str__(self):
+        return self.elevators.__str__()
+
+    def __iter__(self):
+        return iter(self.elevators)
 
