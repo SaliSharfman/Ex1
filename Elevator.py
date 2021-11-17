@@ -54,12 +54,6 @@ class Elevator:
       return self.closeTime
    def getCalls(self)->list:
       return self.elevCalls
-   def getState(self)->int:
-      pass
-   def goTo(self)->bool:
-      pass
-   def stop(self)->bool:
-      pass
    def getSpeed(self)->float:
       return self.speed
    def getStartTime(self)->float:
