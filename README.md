@@ -1,4 +1,5 @@
-Ex1 Elevator</br>
+<head><b>Ex1 Elevator</b></head></br>
+<u>authors: Sali Sharfman, Josef Sokolov, Dima Sanin</u></br>
 We have a problem and it is the management of an elevator system in a high-rise building
  Describing the working method of mrmattandmrchay first, we watched two videos of </br>https://www.youtube.com/watch?v=BCN9mQOT3RQ</br> single elevator</br>
 https://www.youtube.com/watch?v=oY1QlCqWOss</br>
