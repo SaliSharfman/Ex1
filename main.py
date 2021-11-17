@@ -1,47 +1,64 @@
+import collections
 
 from Building import Building
 from  Calls_List import Calls_List
-from Ex1 import Ex1
+from Ex2 import Ex1
 from CallForElevator import  CallForElevator
 import sys
+
+
+
+def allcoateAnElevaotor(c=Calls_List, b=Building, fourArgument=""):  # need to changed CallForElevator as arguments
+    argfour = fourArgument
+    c = c
+    b = b
+    flag_first_time = True
+    # we want all elevators
+    # self.allcoateAnElevaotor()
+    # elevatorim laavod itam
+    elevators = Building.getAllElevators()
+
+    elevAmount = b.numberOfElevator()
+    # self.allcoateAnElevaotor()
+    # i have the calls as field already
+
+    chosenElevtor = -1
+    infinity = float("inf")
+    isSameDirc = False
+
+    pass
+
+
 def main():
-    #b = Building()
+    #allc = Calls_List('Calls_a.csv','out.csv')
+   # allc.load_csv('Calls_a.csv')
+   # allc.set_to_scv('out.csv')
+   # b = Building('B2.json')
+    #b.load_json('B2.json')
+    #try:
+        print("IAM AT EX1")
+        firstargument = sys.argv[0]
+        print("firste arg is = "+str(firstargument))
+        secondargument = sys.argv[1]
+        thirdargument = sys.argv[2]
 
-    #print(b.elevators)
-    #print("elevator size in building is " +str(b.ElevSize()))
+        fourdargument = sys.argv[3]
+        b = Building(secondargument)
+        b.load_json(secondargument)
+        calls = Calls_List(thirdargument,fourdargument)
+        calls.load_csv(secondargument)
+        calls.set_to_scv(fourdargument)
+
+
+        #allc = Calls_List(secondargument,'out.csv')
+        #our_algo.allcoateAnElevaotor()
+
+    #except Exception:
+      #  print("therese is no 5 arguments or its a Test")
+
+    # our_algo = Ex1(calls,b,fourdargument)
 
 
 
-
-
-  #  one_call = CallForElevator(0,0,0,0)
-
-   # call_l = Calls_List("Calls_a.csv")
-    #print(call_l.rows_list)
-    #OA = Our_Algo(b,call_l)
-    #Ex1.py
-    #B1.json
-    #C2.csv
-    #out.csv
-    firstargument = sys.argv[0]
-    secondargument = sys.argv[1]
-    thirdargument = sys.argv[3]
-
-    fourdargument = sys.argv[4]
-
-    calls = Calls_List(secondargument)
-    b = Building(thirdargument)
-    #we will work on this function
-    #in Ex1
-    #calls.set_to_scv(fourdargument)
-    #Ex1.py B1.json C2.csv out.csv
-    syses = []
-    syses.append(firstargument)
-    syses.append(secondargument)
-    syses.append(thirdargument)
-    syses.append(fourdargument)
-    print(syses)
-      
-    #our_algo = Ex1(calls,b,fourdargument)
 
 
