@@ -8,8 +8,7 @@ import csv
 import sys
 
 def TimeForThatCall(src: int, dst: int, elev: Elevator):
-    return ((
-                abs(dst - src)) / elev.getSpeed()) + elev.getTimeForOpen() + elev.getTimeForClos() + elev.getStartTime() + elev.getStopTime()
+    return ((abs(dst - src)) / elev.getSpeed()) + elev.getTimeForOpen() + elev.getTimeForClos() + elev.getStartTime() + elev.getStopTime()
 
 
 def LoadBuildingFromJson(building: str) -> Building:
