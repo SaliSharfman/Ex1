@@ -22,4 +22,15 @@ The UML diagram presents the division of our classes:  [UML class Ex1.pdf](https
 Our Algorithm goes over a list of calls and for each call it goes over each elevator and allocates the elevator with a minimal time for processing the current call.</br>In this way we have a couple of casses.</br> Case 1: There are not previous calls to current an Elevator, so algorithms just calculates the time that will take to the current Elevator to finsh the call, Because in each Elevator we have different settings(speed, time for open/close etc.)</br>Our algorith will find the most suitable elevator to the call.</br> Case 2: There are previous calls to the current Elevator, so the algorithm just calculates a global time, how much it will take to finish all the calls that the elevator has, and our algoritm will find the best elevator with the minimal time to ariive to the call and finish it.</br>Just like in case1 it depends on the settings of the Elevator but in this case we also calculate the previous calls. </br></br>
 After writing the algorithm we got 4 different calls lists in csv files and 5 different buildings in json files.</br>
 we have checked our algorithm with a run file that simulate the elevators activities and give us information about the algorithm execution including avarage waiting time, Number on incomplete calls and Certificate.</br>
+</br><b>Instrucciones for running the jar file from the cmd:</b></br>
+1.run the Ex1 main with the wanted cases.</br>
+2.open cmd.</br>
+3.cd the direction of the project folder.</br>
+4. write the next command: java -jar Ex1_checker_V1.2_obf.jar 209128966,337959928,324466671 B2.json out.csv out.log </br>  (example for building 2 case).</br>
+5. press enter and get the log of the case.</br>
+ </br>the log file will be saved in your project folder.</br>
+ </br><b>example for cmd output of call_a.csv and b2.json</b></br>
+<img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142305794-c6a3a919-7bdd-4ee6-90df-ccb12c22f5b5.png">
+<img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142306263-d83e7923-3b39-4bf1-ab3c-b54a3716fa2c.png">
+
 </br><b>the results of our algorithm in the different cases:</b></br><img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142301108-c36181ee-7ade-4904-a6b4-99515c45532d.png">
