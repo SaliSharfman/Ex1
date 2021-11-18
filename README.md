@@ -11,7 +11,7 @@ After reviewing the literature we have done, the main conclusions we have reache
 
 
 
-This is offline algorithms of elevator algorithms, we're going to split this project to five classes Elevator, CallForElevator, Building, Calls_List and Ex1. We going to seed building class with json data. CallForElevator with csv data. Ex1 class uses building as argument for its constructor. 
+This is an offline algorithms of elevator algorithms, we're going to split this project to five classes Elevator, CallForElevator, Building, Calls_List and Ex1. We going to seed building class with json data. CallForElevator with csv data. Ex1 class uses building as argument for its constructor. 
 
 
 
