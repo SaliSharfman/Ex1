@@ -6,21 +6,22 @@ from Elevator import Elevator
 class Building(object):
 
     def __init__(self, numelevs:int):
-       self.elevators=[]
-       self.elevSize=numelevs
+       self.__elevators=[]
+       self.__elevSize=numelevs
+
     #all elevators
     def getElevSize(self)->int:
-        return self.elevSize
+        return self.__elevSize
     def getElevators(self)->list:
-        return self.elevators
+        return self.__elevators
 
     def __add__(self, other: Elevator):
         if isinstance(other, Elevator):
-            return self.elevators.append(other)
+            return self.__elevators.append(other)
 
     def __str__(self):
-        return self.elevators.__str__()
+        return self.__elevators.__str__()
 
     def __iter__(self):
-        return iter(self.elevators)
+        return iter(self.__elevators)
 
