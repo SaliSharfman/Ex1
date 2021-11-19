@@ -1,5 +1,5 @@
 <head><b>Ex1 Elevator</b></head></br>
-<u>authors: Sali Sharfman, Josef Sokolov, Dima Sanin</u></br></br>
+<u>authors: Dima Sanin, Josef Sokolov, Sali Sharfman</u></br></br>
 We have a problem and it is the management of an elevator system in a high-rise building
  Describing the working method of mrmattandmrchay first, we watched two videos of </br>https://www.youtube.com/watch?v=BCN9mQOT3RQ</br> single elevator</br>
 https://www.youtube.com/watch?v=oY1QlCqWOss</br>
@@ -32,4 +32,4 @@ we have checked our algorithm with a run file that simulate the elevators activi
 <img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142305794-c6a3a919-7bdd-4ee6-90df-ccb12c22f5b5.png">
 <img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142690292-89c20fcb-3c84-4407-aff5-943a71c3db10.png">
 
-</br><b>the results of our algorithm in the different cases:</b></br><img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142301108-c36181ee-7ade-4904-a6b4-99515c45532d.png">
+</br><b>the results of our algorithm in the different cases:</b></br><img width="1093" alt="Screen Shot 2021-11-18 at 0 26 08" src="https://user-images.githubusercontent.com/86108478/142301108-c36181ee-7ade-4904-a6b4-99515c45532d.png"></br>Also we did tests to our programm. First test checks if our algorithm works correctly: allocates the elevator with minimal time. Second test cheks if our function to load scv file to list of calls works correctly and loads from csv for real. 
