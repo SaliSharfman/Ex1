@@ -65,10 +65,10 @@ def allocate_an_elevator(b: str, ca: str, output: str):
             writer = csv.writer(f)
             writer.writerow(row)
 
-def main():
-    allocate_an_elevator(str(sys[0]),str(sys[1]),str(sys[2]),str(sys[3]))
-
 
 if __name__ == '__main__':
-    allocate_an_elevator("B2.json", "Calls_a.csv", "out.csv")
+
+    l = sys.argv
+    allocate_an_elevator(str(l[1]), str(l[2]), str(l[3]))
+
 
